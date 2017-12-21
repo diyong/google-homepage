@@ -257,3 +257,64 @@ a:hover, a:active {
 
 }
 
+.fbar {
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	min-width: 980px;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	visibility: visible;
+	font-size: 10pt;
+}
+
+.footerbar {
+	margin-left: -27px;
+}
+
+.left-footer {
+	margin-left: 30px;
+	font-size: small;
+	line-height: 40px;
+}
+
+.left-footer a {
+	display: inline-block;
+	color: #666;
+	text-decoration: none;
+	padding-left: 27px;
+	z-index: 10;
+}
+
+.left-footer a:hover {
+	text-decoration: underline;
+}
+
+.right-footer {
+	margin-right: 30px;
+	float: right;
+}
+
+.right-footer a {
+	display: inline-block;
+	color: #666;
+	text-decoration: none;
+	padding-left: 27px;
+}
+
+.right-footer-settings {
+	display: inline-block;
+	position: relative;
+}
+
+.right-footer-settings a {
+	text-decoration: none;
+	color: #666;
+	padding-left: 27px;
+}
+
+.right-footer a:hover, .right-footer-settings a:hover {
+	text-decoration: underline;
+}
